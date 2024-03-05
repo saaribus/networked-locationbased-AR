@@ -1,0 +1,27 @@
+{
+  "name": "com.sophonisbe.gps-ar-networked",
+  "displayName": "Locationbased AR with mirror for Android, Windows, WebGL",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "This package contains all the necessary Assets for the basic Setup for a multiplatform (Android, Windows, WebGL) location based Augmented Reality. The demo scene contains the setup and the code which allows you to guide your audience via GPS and once they have arrived at a Point of interest, the can switch their view to the AR Camera provided by Google ARCore. Other feature are (based on the mirror networking library) a networked radio and text that can be instantiated in the networked world.",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "1.0.0",
+    "com.unity.xr.arfoundation": "4.2.9",
+    "com.unity.xr.arcore": "4.2.9",
+    "com.google.ar.core.arfoundation.extensions": "1.40.0",
+    "com.unity.render-pipelines.universal": "12.1.12"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sarah Buser",
+    "email": "saaribus@gmail.com",
+    "url": "https://www.sarahbuser.com/"
+  },
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ]
+}
