@@ -12,10 +12,10 @@ Then import this package.
 
 Open the DemoScene_GPSARMultiplayer to see how the elements correlate. 
 
-**#Setup in Unity**
+# Setup in Unity
 You need to create a new URPAsset (with Universal Renderer) and in the newly created Renderer you need to add the RenderFeature "ARBackground". In the project settings > Graphics > set the reference to newly created Universal Render Pipeline Asset. Now all the pink should be gone.
 
-**#mirror Setup/Test**
+# mirror Setup/Test
 In the DemoScene press play and "Host", you are now connected in your local network and can:
 - walk around with "w", "a", "s", "d"
 - look around with your mouse
@@ -25,7 +25,7 @@ In the DemoScene press play and "Host", you are now connected in your local netw
 
 for the basic understanding of the mirror library visit their documentation: https://mirror-networking.gitbook.io/docs/
 
-**#GPS-AR Setup**
+# GPS-AR Setup
 1) You can and should customize the map, using Open Street Maps, for the area you want people to walk around in. On https://www.openstreetmap.org/ select an area and export it as an .osm file. In order to import it to your unity project convert it to an .obj file, following the instructions on: https://osm2world.org/
 2) You need to manually set the GPS coodinates of your chosen Point of Reference in GPSInputLocal.cs on the GPSMOveTargetForAndroid Game-Object.
 3) It's crucial that you align the map in the editor, so the Point of Reference GameObject points to the above chosen Point of Reference in the real world AND in the unity
