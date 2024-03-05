@@ -34,11 +34,12 @@ map. NOTE: The PointofReference Object needs to be at 0,0,0. To align move the m
 For the basic ARSetup and Project Settings, visit the ARFoundation documentation: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html#samples
 
 # Use case
-New in this package is the inclusion of ARFoundation AR Tracking and the SWITCH between the GPS Camera and the ARCore Camera. You can navigate people using the GPS Camera in larger surroundings, like streets or a forest. Once they have arrived a Point Of Interest (POI) you can let them switch to the ARCore Camera, in order to have detailed and anchored view on the content you want them to see or hear or interact with. Once they leave the surroundings of the POI again, you switch back to the GPS navigation.
+New in this package is the integration of the networking library mirror. With this Code and the DemoScene you have everything at hand to realise sight specific, locationbased, multiplayer theater experiences. The players can connect to the networked virtual world via Desktop (windows build) or via Browser (WebGL build) and via locationbased AR (Android build). In the desktop and broswer application players can navigate in the space via keyboard and mouse, on android players walk around in the physical space in order to move around in the shared virtual space. You can navigate people using the GPS Camera in larger surroundings, like streets or a forest. Once they have arrived a Point Of Interest (POI) you can let them switch to the ARCore Camera, in order to have detailed and anchored view on the content you want them to see or hear or interact with. Once they leave the surroundings of the POI again, you switch back to the GPS navigation.
 
 This package is a further development of "Locationbased AR" and "GPS-AR-Switch", before installing the "networked-locationbase-AR" package, make sure you remove the other packages, as they don't work together.
 
 This is still in development, feel free to share your thoughts and/or troubles.
+I will add more detailed documentation and tutorials continously. Feel free to contact me if you want to use the package and need more specific information.
 
 # note
 This package is the third of three packages. The previous packages (GPS-AR-Switch and Locationbased AR) you can find as different repositories on my Github page. Make sure you only have one of these packages installed in one project. They don't build up on each other.
@@ -47,4 +48,4 @@ This publication is made possible by the Recherchefoerderung of Fonds Darstellen
 Gefoerdert vom Fonds Darstellende Kuenste aus Mitteln der Beauftragten der Bundesregierung fuer Kultur und Medien.
 
 I want to thank Friedrich Kirschner, with whom I developed all of the code during the course of the last years. <3
-TEST TO SEE IF IT WORKS
+
