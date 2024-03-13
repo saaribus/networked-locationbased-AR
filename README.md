@@ -1,4 +1,7 @@
 # networked-locationbased-AR
+
+For the full Documentation and detailed help setting up the project please read the included PDF: Documentation_LocationbasedMultiplayerAR.pdf
+
 This includes the Unity Setup for locationbased AR, with the ADDITIONAL features of 1) a switch between the larger scale navigation with GPS and the more detailed tracking via ARFoundation and 2) the implementation of the mirror library. This is made for theater pieces in public spaces. With building for Android, WebGL and Windows you can have three parties playing in the same virtual space but being at 3 different locations in the physical world.
 
 # Before Downloading Package
